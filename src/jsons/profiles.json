@@ -1,0 +1,38 @@
+{
+  "data_1": [
+    { "birthday": "14 Sept 2002" },
+    { "phone": "+63 948-374-3890" },
+    { "address": "Cahayag, Tubigon, Bohol, Philippines" }
+  ],
+  "data_2": [
+    { "age": 21 },
+    { "degree": "B.S. Information Technology" },
+    { "email": "<a href='mailto:someone@example.com'>vinsmar8888@gmail.com</a>" },
+    { "freelance": "Available" }
+  ],
+  "data_3": [
+    "Cahayag, Tubigon, Bohol, Philippines",
+    "+63 948-374-3890",
+    "<a href='mailto:someone@example.com'>vinsmar8888@gmail.com</a>"
+  ],
+  "data_4": [
+    {
+      "title": "B.S. INFORMATION TECHNOLOGY",
+      "year": "2021 - 2025",
+      "school": "Mater Dei College",
+      "address": "Cabulijan, Tubigon Bohol"
+    },
+    {
+      "title": "SECONDARY",
+      "year": "2013 - 2021",
+      "school": "Mater Dei College",
+      "address": "Cabulijan, Tubigon Bohol"
+    },
+    {
+      "title": "ELEMENTARY",
+      "year": "2006 - 2013",
+      "school": "Naga Central Elementary School",
+      "address": "Naga City, Cebu"
+    }
+  ]
+}
