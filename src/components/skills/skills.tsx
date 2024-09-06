@@ -12,7 +12,7 @@ import './skills.scss';
 
 const Skills = () => {
   const techs1: any[] = SkillsData.techs_1;
-  const techs2: any[] = SkillsData.techs_2;
+  // const techs2: any[] = SkillsData.techs_2;
 
   const RenderSkills = (skills: ISkill[]) => {
     return skills.map((skill, index) => (
