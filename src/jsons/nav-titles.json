@@ -1,7 +1,6 @@
 {
   "titles": [
     { "name": "about", "icon": "person" },
-    { "name": "resume", "icon": "file-earmark" },
     { "name": "skills", "icon": "gear" }
   ]
 }

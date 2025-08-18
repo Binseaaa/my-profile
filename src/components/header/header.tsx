@@ -1,22 +1,22 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 // Components
-import Navagition from 'components/nav';
+import Navagition from "components/nav";
 
 // Constants
-import { NAME } from 'constants/common';
+import { NAME } from "constants/common";
 
 // Assets
-import Profile from 'assets/img/bins.png';
+import Profile from "assets/img/bins.png";
 
 // Jsons
-import SocialMedias from 'jsons/social-medias.json';
+import SocialMedias from "jsons/social-medias.json";
 
 // Styles
-import './header.scss';
+import "./header.scss";
 
 const Header = () => {
-  const [listIcon, xIcon] = ['list', 'x'];
+  const [listIcon, xIcon] = ["list", "x"];
   const [menuIcon, setMenuIcon] = useState<string>(listIcon);
 
   const handleToggleIcon = () => {
@@ -28,7 +28,7 @@ const Header = () => {
   };
 
   return (
-    <div className={`${menuIcon === xIcon ? 'mobile-nav-active' : ''}`}>
+    <div className={`${menuIcon === xIcon ? "mobile-nav-active" : ""}`}>
       <i
         className={`mobile-nav-toggle d-xl-none bi bi-${menuIcon}`}
         onClick={handleToggleIcon}
@@ -38,6 +38,9 @@ const Header = () => {
           <div className="profile">
             <img src={Profile} alt="" className="img-fluid rounded-circle" />
             <h1 className="text-light">{NAME}</h1>
+            <p className="text-xs text-blue-400 text-center">
+              Web Developer and Video Editor
+            </p>
             <div className="social-links mt-3 text-center">
               {SocialMedias.medias.map((item, index) => (
                 <a

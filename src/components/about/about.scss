@@ -1,35 +1,80 @@
-.about {
-  .content {
-    h3 {
-      font-weight: 700;
-      font-size: 26px;
-      color: #173b6c;
-    }
+// .about {
+//   .section-title {
+//     margin-bottom: 40px; // Space below the title
+//     h2 {
+//       font-size: 2.5rem; // Larger font size for the title
+//       font-weight: 700; // Bold font weight
+//       color: #173b6c; // Dark blue color
+//       position: relative; // For pseudo-element positioning
 
-    p:last-child {
-      margin-bottom: 0;
-    }
+//       &::after {
+//         content: ""; // Decorative line under the title
+//         display: block;
+//         width: 80px; // Width of the line
+//         height: 4px; // Height of the line
+//         background-color: #149ddd; // Accent color
+//         margin: 10px auto 0; // Center the line
+//         border-radius: 2px; // Rounded edges
+//       }
+//     }
 
-    ul {
-      list-style: none;
-      padding: 0;
+//     p.lead {
+//       font-size: 1.2rem; // Slightly larger font size for the lead text
+//       color: #555; // Muted color for better readability
+//     }
+//   }
 
-      li {
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-      }
+//   .content {
+//     max-width: 1200px; // Limit the width for better readability
+//     margin: 0 auto; // Center the content
+//     padding: 20px; // Add padding inside the content area
+//     border-radius: 8px; // Rounded corners for a softer look
+//     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
 
-      strong {
-        margin-right: 10px;
-      }
+//     h3 {
+//       font-weight: 700;
+//       font-size: 26px; // Font size for the main heading
+//       color: #173b6c; // Dark blue color
+//       margin-bottom: 20px; // Space below the heading
+//     }
 
-      i {
-        font-size: 16px;
-        margin-right: 5px;
-        color: #149ddd;
-        line-height: 0;
-      }
-    }
-  }
-}
+//     p.fst-italic {
+//       font-style: italic; // Italic style for emphasis
+//       color: #333; // Darker color for better contrast
+//       margin-bottom: 30px; // Space below the paragraph
+//     }
+
+//     .row {
+//       margin-top: 20px; // Space above the row
+//     }
+
+//     h4 {
+//       font-size: 1.5rem; // Font size for subheadings
+//       color: #173b6c; // Dark blue color
+//       margin-bottom: 15px; // Space below the subheading
+//     }
+
+//     .skills-list, .experience-list {
+//       list-style: none; // Remove default list styles
+//       padding: 0; // Remove padding
+//       margin: 0; // Remove margin
+
+//       li {
+//         margin-bottom: 15px; // Space between list items
+//         display: flex; // Flexbox for alignment
+//         align-items: center; // Center items vertically
+
+//         strong {
+//           margin-right: 10px; // Space between strong and text
+//           color: #149ddd; // Accent color for strong text
+//         }
+
+//         i {
+//           font-size: 16px; // Icon size
+//           margin-right: 5px; // Space between icon and text
+//           color: #149ddd; // Icon color
+//         }
+//       }
+//     }
+//   }
+// }

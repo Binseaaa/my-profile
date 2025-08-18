@@ -1,18 +1,18 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { ProgressBar } from 'react-bootstrap';
+import { ProgressBar } from "react-bootstrap";
 
 // Types
-import { ISkill } from 'types/common';
+import { ISkill } from "types/common";
 
 // Jsons
-import SkillsData from 'jsons/skills.json';
+import SkillsData from "jsons/skills.json";
 
 // Styles
-import './skills.scss';
+import "./skills.scss";
 
 const Skills = () => {
   const techs1: any[] = SkillsData.techs_1;
-  // const techs2: any[] = SkillsData.techs_2;
+  const techs2: any[] = SkillsData.techs_2;
 
   const RenderSkills = (skills: ISkill[]) => {
     return skills.map((skill, index) => (
@@ -39,7 +39,7 @@ const Skills = () => {
         </div>
         <div className="row skills-content">
           <div className="col-lg-6">{RenderSkills(techs1)}</div>
-          {/* <div className="col-lg-6">{RenderSkills(techs2)}</div> */}
+          <div className="col-lg-6">{RenderSkills(techs2)}</div>
         </div>
       </div>
     </section>
