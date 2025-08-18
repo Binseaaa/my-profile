@@ -1,7 +1,7 @@
 import React from "react";
 import parse from "html-react-parser";
 // import { IProfile, TProfile } from "types/common";
-import { ABOUT_TEXT_1, ABOUT_TEXT_2, RESUME_TEXT_2 } from "constants/common";
+import { ABOUT_TEXT_1, RESUME_TEXT_2 } from "constants/common";
 import Profiles from "jsons/profiles.json";
 
 const About: React.FC = () => {
@@ -24,16 +24,19 @@ const About: React.FC = () => {
             {ABOUT_TEXT_1}
           </p>
           {/* ABOUT_TEXT_2 can include HTML; render safely via parser */}
-          <div
+          {/* <div
             className="prose prose-gray mx-auto mt-6 max-w-3xl text-gray-600 animate-fade-in"
             style={{ animationDelay: "220ms" }}
           >
             {parse(ABOUT_TEXT_2)}
-          </div>
+          </div> */}
         </header>
 
         {/* Experience & Education */}
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div
+          className="mt-14 grid gap-8 md:grid-cols-2 animate-fade-in"
+          style={{ animationDelay: "120ms" }}
+        >
           {/* Experience */}
           <article className="rounded-2xl bg-white p-6 shadow-md ring-1 ring-black/5 transition-shadow hover:shadow-lg">
             <h3 className="text-xl font-semibold text-slate-800">Experience</h3>
@@ -86,7 +89,10 @@ const About: React.FC = () => {
 
         {/* Projects */}
         <section className="">
-          <h2 className="mb-6 text-center text-3xl font-bold text-slate-900">
+          <h2
+            className="mb-6 text-center text-3xl font-bold text-slate-900 animate-fade-in"
+            style={{ animationDelay: "120ms" }}
+          >
             Projects
           </h2>
           <div className="grid gap-8 md:grid-cols-2">

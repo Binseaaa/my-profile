@@ -35,13 +35,24 @@ const Skills = () => {
     <section id="skills" className="skills section-bg">
       <div className="container">
         <div className="section-title">
-          <h2>Skills</h2>
+          <h2 className="animate-fade-in-up">Skills</h2>
         </div>
-        <div className="row skills-content">
+        <div
+          className="row skills-content animate-fade-in"
+          style={{ animationDelay: "120ms" }}
+        >
           <div className="col-lg-6">{RenderSkills(techs1)}</div>
           <div className="col-lg-6">{RenderSkills(techs2)}</div>
         </div>
       </div>
+      <style>{`
+        @keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }
+        @keyframes fade-in-up { from { opacity: 0; transform: translate3d(0, 8px, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) } }
+        @keyframes grow-in { from { transform: scaleX(0); opacity: .5 } to { transform: scaleX(1); opacity: 1 } }
+        .animate-fade-in { animation: fade-in .6s both; }
+        .animate-fade-in-up { animation: fade-in-up .6s ease-out both; }
+        .animate-grow-in { transform-origin: center; animation: grow-in .6s ease-out both; }
+      `}</style>
     </section>
   );
 };
