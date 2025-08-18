@@ -1,7 +1,7 @@
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
 
 // Jsons
-import Profiles from "jsons/profiles.json";
+// import Profiles from "jsons/profiles.json";
 // import Experiences from 'jsons/experiences.json';
 
 // Styles

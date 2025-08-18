@@ -1,6 +1,6 @@
 import React from "react";
 import parse from "html-react-parser";
-import { IProfile, TProfile } from "types/common";
+// import { IProfile, TProfile } from "types/common";
 import { ABOUT_TEXT_1, ABOUT_TEXT_2, RESUME_TEXT_2 } from "constants/common";
 import Profiles from "jsons/profiles.json";
 
