@@ -11,8 +11,8 @@
   ],
   "techs_2": [
     { "name": "Laravel", "rate": "80" },
-    { "name": "InertiaJS", "rate": "80" },
-    { "name": "PHP", "rate": "60" },
+    { "name": "InertiaJS", "rate": "60" },
+    { "name": "PHP", "rate": "80" },
     { "name": "Git", "rate": "60" },
     { "name": "Tailwind CSS", "rate": "80" },
     { "name": "Wix", "rate": "60" },
