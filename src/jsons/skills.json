@@ -1,13 +1,13 @@
 {
   "techs_1": [
     { "name": "HTML5", "rate": "80" },
-    { "name": "React", "rate": "60" },
+    { "name": "React", "rate": "40" },
     { "name": "Vue3.js", "rate": "60" },
     { "name": "NodeJS", "rate": "40" },
     { "name": "JavaScript", "rate": "60" },
     { "name": "CSS", "rate": "80" },
-    { "name": "MySql", "rate": "80" }
-  
+    { "name": "MySql", "rate": "80" },
+    { "name": "Firebase", "rate": "40" }
   ],
   "techs_2": [
     { "name": "Laravel", "rate": "80" },
